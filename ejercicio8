@@ -1,0 +1,9 @@
+Algoritmo positivo_negativo
+	Escribir "Escriba un número: "
+	leer num
+	si num >= 0 Entonces
+		Escribir "El número ", num, " es positivo"
+	SiNo
+		Escribir "El número ", num, " es negativo"
+	FinSi
+FinAlgoritmo
