@@ -1,0 +1,8 @@
+Algoritmo Hipotenusa
+	Escribir "Ingrese el cateto adyacente: "
+	leer lado1
+	Escribir "Ingrese el cateto opuesto: "
+	leer lado2
+	h <- rc(lado1^2+lado2^2)
+	Escribir "la hipotenusa es: " h
+FinAlgoritmo
