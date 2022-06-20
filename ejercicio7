@@ -1,0 +1,9 @@
+Proceso par_o_impar
+	Escribir "ingrese un numero"
+	leer x
+	Si x mod 2=0 Entonces
+		Escribir "es par"
+	SiNo
+		Escribir "es inpar"
+	Fin Si
+FinProceso
