@@ -1,0 +1,19 @@
+//Suma, Resta, Multiplicacion, Division, Residuo
+
+Algoritmo numero
+	num1<- 0 ; num2 <- 0 ; s <- 0 ; r <- 0 ; mul <- 0 ; d <- 0 ; m <- 0 ;
+	Escribir "ingrese un numero"
+	Leer num1
+	Escribir "ingrese un numero"
+	Leer num2 
+	s <- num1 + num2
+	Escribir "la suma es: " num1 " + " num2 " = " s
+	r <- num1 - num2 
+	Escribir  "la resta es: " num1 " - " num2 " = " r
+	mul <- num1 * num2
+	Escribir "la multiplicacion es: " num1 " x " num2 " = " mul
+	d <- num1 / num2 
+	Escribir "la division es: " num1 ," % " ,num2, " = ", d
+	m <- num1 mod num2
+	Escribir  "el residuo es: " num1 ," residuo de ", num2 " = " m 
+FinAlgoritmo
