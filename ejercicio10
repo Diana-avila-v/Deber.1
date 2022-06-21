@@ -1,0 +1,13 @@
+Algoritmo binario_decimal
+	Escribir "Ingrese un número binario de 4 digitos:"
+	Leer bin
+	u <- bin mod 10 
+	bin <- trunc(bin / 10)
+	d <- bin mod 10
+	bin <- trunc(bin / 10)
+	c <- bin mod 10
+	bin <- trunc(bin / 10)
+	um <- bin mod 10
+	decimal <- (um*2^3)+(c*2^2)+(d*2^1)+(u*2^0)
+	escribir "El binario ", bin, " convertido a decimal es: ", decimal 
+FinAlgoritmo
