@@ -1,0 +1,18 @@
+Algoritmo bit_paridad
+	Escribir "Ingrese un número binario de 4 digitos:"
+	Leer bin
+	bin1 <- bin
+	u <- bin1 mod 10 
+	bin1 <- trunc(bin1 / 10)
+	d <- bin1 mod 10
+	bin1 <- trunc(bin1 / 10)
+	c <- bin1 mod 10
+	bin1 <- trunc(bin1 / 10)
+	um <- bin1 mod 10
+	sum <- u+d+c+um
+	si sum mod 2 == 0 Entonces
+		escribir "la paridad par de ", bin, " es: 0 "
+	SiNo
+		escribir "la paridad par de ", bin, " es: 1 "
+	FinSi
+FinAlgoritmo
