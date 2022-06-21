@@ -1,0 +1,28 @@
+Proceso ejercicio2
+	//expresion 1
+	Escribir "------------------EXPRESION 1-------------------"
+	escribir "la expresión a resolver es x=(a+(b/c))/((a/b)+c) "
+	escribir "ingrese el valor de la variable a"
+	leer a
+	escribir "ingrese el valor de la variable b"
+	leer b
+	escribir "ingrese el valor de la variable c"
+	leer c
+	
+	x1 <- (a+(b/c))/((a/b)+c)
+	Escribir  "El resultado es: ", x1
+	Escribir "------------------------------------------------"
+	Escribir ""
+	//expresion 2
+	Escribir "------------------EXPRESION 2-------------------"
+	escribir "la expresión a resolver es x=((a/(a+b))/(a/(a-b)) "
+	escribir "ingrese el valor de la variable a"
+	leer a
+	escribir "ingrese el valor de la variable b"
+	leer b
+	
+	x2 <- (a/(a+b))/(a/(a-b))
+	Escribir  "El resultado es: ", x2
+	Escribir "------------------------------------------------"
+	
+FinProceso
