@@ -1,0 +1,41 @@
+Algoritmo estacionamiento
+	Escribir "Ingresa la hora de entrada (1..24)"
+	leer h_entrada
+	Escribir "Ingresa los minutos de la entrada (0..60)"
+	leer m_entrada
+  Escribir "Ingresa si es AM o PM:"
+	leer h_e
+  
+	Escribir "Ingresa la hora de salida"
+	leer h_salida
+	Escribir "Ingresa los minutos de la salida"
+	leer m_salida
+  Escribir "Ingresa si es AM o PM:"
+	leer h_s
+  
+	si h_entrada > 24 o h_salida > 24 o m_entrada > 60 o m_salida > 60 Entonces
+		Escribir "La hora es incorrecta"
+	SiNo
+		si h_entrada > h_salida Entonces
+			Escribir "Ingresa la hora de salida correctamente"
+		SiNo
+			si h_entrada == h_salida Entonces
+				si m_salida > m_entrada Entonces
+					total_horas = 1
+					monto = 4.00
+				SiNo
+					Escribir "Ingresa la hora de salida correctamente"		
+				FinSi
+			SiNo
+				total_horas = h_salida - h_entrada
+				si m_salida > m_entrada Entonces
+					total_horas = total_horas + 1
+					monto = ((total_horas)*4.00)+2.50
+				SiNo
+					monto = ((total_horas)*4.00)+2.50
+				FinSi
+			FinSi
+		FinSi
+		Escribir "El monto a pagar por ",total_horas," horas es: $",monto
+	FinSi
+FinAlgoritmo
