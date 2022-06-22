@@ -1,0 +1,9 @@
+Algoritmo segundos_horas_minutos_dias
+	escribir "------------------Ingrese Segundos------------------"
+	Escribir " ingrese los segundos:"
+	leer seg
+	min <- trunc(seg/60)
+	hora <- trunc(seg/3600)
+	dia <- trunc(seg/86400)
+	escribir "Segundos convertidos a: MINUTOS: ", min," HORAS: ", hora, " DIAS: ", dia 
+FinAlgoritmo
