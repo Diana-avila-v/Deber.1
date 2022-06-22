@@ -1,0 +1,9 @@
+Algoritmo horas_minutos_segundos
+	escribir "------------------Ingrese Horas y Minutos------------------"
+	Escribir "Ingrese Horas (hh):" 
+	leer h
+	Escribir "Ingrese Minutos (mm):" 
+	leer m
+	s <- (h*3600)+(m*60)
+	Escribir " Tiempo ingresado (hh:mm) ",h ":" m " convertidos a segundos es: ", s, " segundos"
+FinAlgoritmo
