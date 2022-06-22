@@ -1,0 +1,56 @@
+Algoritmo mes
+	Escribir "------------------Meses del Año------------------"
+	Escribir "Ingrese un número del 1 al 12:"
+	leer n
+	si n == 1 entonces
+		Escribir "el mes perteneciente al número ", n, " es: ENERO"
+	SiNo
+		si n == 2 entonces
+			Escribir "el mes perteneciente al número ", n, " es: FEBRERO"
+		SiNo
+			si n == 3 entonces
+				Escribir "el mes perteneciente al número ", n, " es: MARZO"
+			SiNo
+				si n == 4 entonces
+					Escribir "el mes perteneciente al número ", n, " es: ABRIL"
+				SiNo
+					si n == 5 entonces
+						Escribir "el mes perteneciente al número ", n, " es: MAYO"
+					SiNo
+						si n == 6 entonces
+							Escribir "el mes perteneciente al número ", n, " es: JUNIO"
+						SiNo
+							si n == 7 entonces
+								Escribir "el mes perteneciente al número ", n, " es: JULIO"
+							SiNo
+								si n == 8 entonces
+									Escribir "el mes perteneciente al número ", n, " es: AGOSTO"
+								SiNo
+									si n == 9 entonces
+										Escribir "el mes perteneciente al número ", n, " es: SEPTIEMBRE"
+									SiNo
+										si n == 10 entonces
+											Escribir "el mes perteneciente al número ", n, " es: OCTUBRE"
+										SiNo
+											si n == 11 entonces
+												Escribir "el mes perteneciente al número ", n, " es: NOVIEMBRE"
+											SiNo
+												si n == 12 entonces
+													Escribir "el mes perteneciente al número ", n, " es: DICIEMBRE"
+												SiNo
+													si n > 12 O n < 1 entonces
+														Escribir "el número no pertenece a ningun mes"
+													FinSi
+												FinSi
+											FinSi
+										FinSi
+									FinSi
+								FinSi
+							FinSi
+						FinSi
+					FinSi
+				FinSi
+			FinSi
+		FinSi
+	FinSi
+FinAlgoritmo
