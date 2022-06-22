@@ -1,0 +1,10 @@
+Algoritmo Descuento
+	Escribir "Ingrese el monto a pagar:"
+	leer m
+	si m >= 1000 Entonces
+		m <- m*0.80
+		Escribir "Tiene un descuento del 20%, el valor a pagar es: ", m, "$"
+	SiNo
+		Escribir "El valor a pagar es:", m, "$"
+	FinSi
+FinAlgoritmo
