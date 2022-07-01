@@ -1,4 +1,5 @@
 Proceso Resolvente
+Definir un, b,c,dis Como Entero
     
 	Escribir "Ingrese el coeficiente A:"
     Leer a
@@ -8,7 +9,7 @@ Proceso Resolvente
     Leer c
     
     disc <- b^2-4*a*c
-    Si disc<0 Entonces        
+    Si disc<0 Entonces
         nreal<- (-b)/(2*a)
         nimag<- rc(-disc)/(2*a)
         Escribir "Raiz 1: ",nreal,"+",nimag,"i"
