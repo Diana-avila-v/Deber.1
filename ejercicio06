@@ -1,5 +1,5 @@
 Algoritmo Hipotenusa
-    Definir lado1,lado2,h Como  Entero
+    Definir lado1,lado2,h Como Real
 	Escribir "Ingrese el cateto adyacente: "
 	leer lado1
 	Escribir "Ingrese el cateto opuesto: "
