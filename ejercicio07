@@ -1,4 +1,5 @@
 Proceso par_o_impar
+        Definir x, par,impar Como Caracter
 	Escribir "ingrese un numero"
 	leer x
 	Si x mod 2=0 Entonces
