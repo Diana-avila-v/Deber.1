@@ -1,4 +1,5 @@
 Algoritmo positivo_negativo
+    Definir num   Como entero
 	Escribir "Escriba un número: "
 	leer num
 	si num >= 0 Entonces
