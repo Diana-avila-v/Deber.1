@@ -1,0 +1,10 @@
+Algoritmo contraseña
+	Definir n Como Caracter
+	Escribir "ingrese contraseña de 10 digitos"
+	leer n
+	Mientras longitud(n) < 10 Hacer
+		Escribir "error: ingrese contraseña de 10 digitos"
+		leer n
+	Fin Mientras
+	escribir "la contraseña se registro correctamente"
+FinAlgoritmo
