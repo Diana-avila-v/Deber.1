@@ -1,4 +1,5 @@
 Algoritmo capicua
+      Definir n1,n2,n4,n5 Como Entero
 	Escribir "Ingrese un número de 5 digitos:"
 	leer num
 	n1 <- trunc(num/10000)
