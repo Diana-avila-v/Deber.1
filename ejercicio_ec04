@@ -1,4 +1,5 @@
 Algoritmo segundos_horas_minutos_dias
+    Definir min,hora,dia Como  Entero
 	escribir "------------------Ingrese Segundos------------------"
 	Escribir " ingrese los segundos:"
 	leer seg
