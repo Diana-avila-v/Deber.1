@@ -5,6 +5,6 @@ Proceso  ejercicio7
 	Si x mod 2=0 Entonces
 		Escribir "es par"
 	SiNo
-		Escribir "es inpar"
-	Fin Si
+		Escribir "es impar"
+	Fin Si.
 FinProceso
