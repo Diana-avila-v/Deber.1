@@ -1,0 +1,23 @@
+Algoritmo capicua
+	Escribir "Ingrese un número de 5 digitos:"
+	leer num
+	n1 <- trunc(num/10000)
+	
+	a <- trunc(num/1000)
+	n2 <- un mod 10
+	
+	b <- trunc(núm/10)
+	n4 <- b mod 10
+	
+	n5 <- num mod 10
+	
+	si n1 == n5 Entonces
+		si n2 == n4 Entonces
+			Escribir "El número ",num," es Capicua"
+		SiNo
+			Escribir "El número ",num," no es Capicua"
+		FinSi
+	SiNo
+		Escribir "El número ",num," no es Capicua"
+	FinSi
+FinAlgoritmo
