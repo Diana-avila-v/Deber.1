@@ -1,5 +1,5 @@
 Proceso Resolvente
-Definir un, b,c,dis Como Entero
+Definir un, b,c,dis Como Real
     
 	Escribir "Ingrese el coeficiente A:"
     Leer a
