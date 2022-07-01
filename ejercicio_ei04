@@ -1,0 +1,14 @@
+Algoritmo factorial
+	Definir n, x,c Como Entero
+
+	Escribir "Ingrese un numero"
+	Leer n
+	x <- n 
+	c <- 1
+	Mientras c < n Hacer
+		x = x * c
+		c = c + 1
+	FinMientras
+	Escribir "El resultado del numero factorial ",n," es:",x
+	
+FinAlgoritmo
