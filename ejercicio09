@@ -1,4 +1,5 @@
 Algoritmo bit_paridad
+      Definir u,d,c,um,bin Como Entero
 	Escribir "Ingrese un número binario de 4 digitos:"
 	Leer bin
 	bin1 <- bin
