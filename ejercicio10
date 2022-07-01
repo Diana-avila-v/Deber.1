@@ -1,4 +1,5 @@
 Algoritmo binario_decimal
+     Definir u,d,c,um Como Entero
 	Escribir "Ingrese un número binario de 4 digitos:"
 	Leer bin
 	u <- bin mod 10 
