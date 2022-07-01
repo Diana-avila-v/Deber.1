@@ -1,4 +1,5 @@
 //Suma, Resta, Multiplicacion, Division, Residuo
+Definir num1, num2, s, r, mul, d, m como  caracter
 
 Algoritmo numero
 	num1<- 0 ; num2 <- 0 ; s <- 0 ; r <- 0 ; mul <- 0 ; d <- 0 ; m <- 0 ;
