@@ -1,4 +1,4 @@
-Proceso par_o_impar
+Proceso  ejercicio7
         Definir x, par,impar Como Caracter
 	Escribir "ingrese un numero"
 	leer x
