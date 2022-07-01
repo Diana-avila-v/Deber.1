@@ -1,0 +1,18 @@
+Algoritmo sin_titulo
+	Definir x, mayorr, menorr Como Entero
+	x = 1
+	mayorr = 0
+	menorr = 999999999
+	Mientras x <> 0 Hacer
+		Escribir "Ingrese un numero"
+		leer x
+		si mayorr < x Entonces
+			mayorr = x 
+		FinSi
+		si x < menorr && x <> 0 Entonces
+			menorr = x 
+		FinSi
+	FinMientras
+	Escribir "el mayor es: ", mayorr
+	Escribir "el menor es: ", menorr
+FinAlgoritmo
