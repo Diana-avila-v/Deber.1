@@ -1,4 +1,5 @@
 Algoritmo horas_minutos_segundos
+    Definir h,m,s Como Entero
 	escribir "------------------Ingrese Horas y Minutos------------------"
 	Escribir "Ingrese Horas (hh):" 
 	leer h
