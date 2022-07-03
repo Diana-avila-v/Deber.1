@@ -1,0 +1,15 @@
+Algoritmo TabladeMul
+	Definir num, x, m, resultado Como Entero
+	Escribir "Ingrese un numero para generar la tabla"
+	Leer num
+	x = 1
+	m = 1
+	Mientras x <= 10 & m <= 10 Hacer
+		x = num
+		resultado = x * m
+		Imprimir "El resultado de ",x," x ",m," = ",resultado 
+		m = m + 1
+		
+	FinMientras
+	
+FinAlgoritmo
