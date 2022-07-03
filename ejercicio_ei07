@@ -1,0 +1,58 @@
+Algoritmo factorial
+	Definir x,a,edad,estatura,peso,promedioedad,promediopeso,promedioestatura,promedioentre,promedio35, promediopesoentre,v,B,K,c Como real 
+	a=0
+	v=0
+	B=0
+	K=0
+	c=0
+	promedioedad=0
+	promedioestatura=0
+	promediopeso=0
+	edad =0
+	peso =0
+	estatura =0
+	promedioentre=0 
+	promedio35=0
+	promediopesoentre=0
+	para x = 1 hasta 3 Con Paso 1 Hacer
+		Escribir "Persona ",x
+		Escribir "ingresa su edad"
+		Leer edad
+		si edad <18 Entonces
+			Escribir " Usted no es mayor de edad"
+		SiNo
+			Escribir "eres mayor de edad continua"
+			promedioedad = promedioedad + edad
+			a = a + 1
+		FinSi
+		si (edad >= 18 y edad <= 25) Entonces
+			promedioentre = promedioentre +1
+			v =v +1
+		FinSi
+		si (edad >= 36 y edad <=100) Entonces
+			promedio35 = promedio35 +1
+			f = f + 1
+		FinSi
+		Escribir "ingresa tu peso"
+		Leer peso 
+		promediopeso = promediopeso + peso
+		b = b + 1 
+		si (edad >= 18 y edad <= 25) Entonces
+			promediopesoentre = promediopesoentre + peso
+			k =k +1
+		FinSi
+		Escribir "ingresa tu estatura"
+		Leer estatura
+		promedioestatura=promedioestatura + estatura
+		c=c +1
+	FinPara
+	Escribir " las edades entre 18 y 25 son " promedioentre
+	Escribir "edad promedio de las personas: ", promedioedad /3
+	Escribir "estatura promedio de las personas: ",promedioestatura/3, "Mt"
+	Escribir "peso promedio de las personas: ", promediopeso/3, "kg"
+	Escribir "personas mayores de 35: ", promedio35
+	Escribir "el peso de las personas entre 18 y 35 son: ", promediopesoentre " Kg"
+FinAlgoritmo
+	
+	
+
