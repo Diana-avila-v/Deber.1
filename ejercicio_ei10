@@ -1,0 +1,17 @@
+Algoritmo promedio
+	Definir n,c,suma Como Entero
+	n = 1
+	suma = 0
+	c = 0
+	Mientras n <> 0 Hacer
+		Escribir "Ingresa un numero"
+		Leer n
+		Si n <> 0 Entonces
+			suma = suma + n
+			c = c + 1
+		FinSi
+	Fin Mientras
+	Si c > 0 Entonces
+		Escribir "El promediocde los numeros ingresados es: ",suma/c
+	FinSi
+	
