@@ -15,3 +15,4 @@ Algoritmo promedio
 		Escribir "El promediocde los numeros ingresados es: ",suma/c
 	FinSi
 	
+FinAlgoritmo
